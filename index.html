@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html id="home">
+<head>
+    <title> Dark Music </title>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <meta name="google-site-verification" content="U-OCUkoNn2ZnXouLDxOw31LNrD3X9xCXilKbzcKkQVI">
+
+    <meta name="author" content="Rxsto">
+    <meta name="publisher" content="GroozyDevs">
+    <meta name="copyright" content="GroozyDevs">
+    <meta name="description"
+          content="Groozy is a feature-rich and experienced music-bot for Discord! He supports YouTube, Soundcloud, Spotify and more!">
+    <meta name="keywords"
+          content="Groozy, Groozybot, discord, discordbot, discord-bot, musicbot, music-bot, discord, bot, music, high quality, high, quality, rxsto, schlaubi">
+    <meta name="image" content="http://tr.groozybot.tk/assets/img/groovy.png">
+    <meta name="robots" content="index, follow">
+
+    <meta itemprop="name" content="Dark Music">
+    <meta itemprop="description"
+          content="Groozy is a feature-rich and experienced music-bot for Discord! He supports YouTube, Soundcloud, Spotify and more!">
+    <meta itemprop="image" content="">
+
+    <meta name="og:title" content="Dark Music - Discord Music Bot">
+    <meta name="og:description"
+          content="Groozy is a feature-rich and experienced music-bot for Discord! He supports YouTube, Soundcloud, Spotify and more!">
+    <meta name="og:image" content="">
+    <meta name="og:url" content="">
+    <meta property="og:keywords"
+          content="DarkMusic, Darkbot, discord, discordbot, discord-bot, musicbot, music-bot, discord, bot, music, high quality, high, quality, rxsto, schlaubi">
+    <meta name="og:site_name" content="Dark Music">
+    <meta name="og:locale" content="en">
+    <meta name="og:type" content="website">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Dark Music">
+    <meta name="twitter:description"
+          content="DarkMusic is a feature-rich and experienced music-bot for Discord! He supports YouTube, Soundcloud, Spotify and more!">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+
+    <link rel="icon" href="" type="image/png">
+    <link rel="apple-touch-icon" href="">
+
+    <meta name="application-name" content="Dark Music">
+    <meta name="theme-color" content="#da7272">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+</head>
+<body id="body">
+<nav class="animated fadeInDown">
+    <div class="logo">
+        <img src="assets/img/logo.jpeg" alt="Logo">
+        <h3>DarkMusic</h3>
+    </div>
+    <div class="bar">
+        <a href="#home"><i class="fas fa-home"></i> Anasayfa</a>
+        <a href="#commands"><i class="fas fa-list"></i> Komutlar</a>
+    </div>
+    <div onclick="menu();" id="navbar-toggle" class="navbar-toggle">
+        <div id="top-bar" class="navbar-toggle-item top-bar"></div>
+        <div id="middle-bar" class="navbar-toggle-item middle-bar"></div>
+        <div id="bottom-bar" class="navbar-toggle-item bottom-bar"></div>
+    </div>
+</nav>
+<div class="mobile-nav" id="mobile-nav">
+    <a onclick="menu();" href="#home"><i class="fas fa-home"></i> Anasayfa</a>
+    <a onclick="menu();" href="#commands"><i class="fas fa-list"></i> Komutlar</a>
+</div>
+<main>
+    <div class="site-dark hey">
+        <div class="DarkMusic">
+            <h1 class="toptext animated fadeInDown">İyi Bir Müzik Botu Edinme Zamanı.</h1>
+            <h3 class="subtext animated fadeInDown">Hepsi bir arada: DarkMusic, zengin özelliklere sahip ve deneyimli bir müzik botudur.
+                Discord. İyi kaliteyi çok sayıda işlev ve komutla birleştirir. Hiç istedin mi
+                özellikle müzik için yapılmış iyi bir bota sahip olmak için? O halde DarkMusic'i seçin!</h3>
+        </div>
+        <div class="buttons animated fadeInUp">
+            <a href="https://discord.com/oauth2/authorize?client_id=802834344078737408&permissions=8&scope=bot" class="btn invite animated fadeInDown"><i
+                    class="fas fa-plus-square"></i> Botu Davet Et</a>
+            <a href="https://discord.gg/v4SraKpSBX" class="btn support animated fadeInDown"><i
+                    class="fab fa-discord"></i> Destek Sunucusu</a>
+        </div>
+        <div class="stats animated zoomIn">
+            <div>
+                <p>Playing</p>
+                <p class="odometer stats-thin playing">Loading ...</p>
+            </div>
+            <div>
+                <p>Servers</p>
+                <p class="odometer stats-thin servers">Loading ...</p>
+            </div>
+            <div>
+                <p>Users</p>
+                <p class="odometer stats-thin users">Loading ...</p>
+            </div>
+        </div>
+        <div class="bigimg">
+            <img class="bigimgsource animated fadeInUp" src="assets/img/aa.png" alt="Discord UI">
+        </div>
+    </div>
+    <div id="commands" class="site-light commands">
+        <p>Komutlar <span class="thin">and</span> Features</p>
+        <table>
+            <tbody>
+            <tr>
+                <td class="command-name">m!çal</td>
+                <td>Müzik Dinlersiniz</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!ses</td>
+                <td>Müziğin Sesin Ayarlarsınız</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!geç</td>
+                <td>Sıradaki Şarkıya Geçersiniz</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!çalan</td>
+                <td>Özel Eklenti Komutlarını Açar</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!duraklat</td>
+                <td>Şarkıyı Durdurdurursunuz</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!devam</td>
+                <td>Şarkıyı Devem Ettirirsiniz</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!sıra</td>
+                <td>Kuyruğu Görürsünüz</td>
+            </tr>
+            <tr>
+                <td class="command-name">m!ayrıl</td>
+                <td>Bot Odadan Ayrılır</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+<footer>
+    <div>
+        <p>© 2021 DarkMusic - All rights reserved.</p> 
+        <p class="line">|</p>
+        <p>Made by</p>
+        <a target="_blank" href="">HeroDesign.jpg#7435</a>
+    </div>
+</footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.animateNumber.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
